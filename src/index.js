@@ -31,14 +31,9 @@ const routing = (
         <div className="col grow padding-md no-text-wrap text-right">
           <ul className="menu">
             <li><Link to="/">Play</Link></li>
-            <li><a href="https://classic.letsplaybingo.io">Classic</a></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/donate">Donate</Link></li>
             <li><Link to="/generator">Card Generator</Link></li>
           </ul>
-        </div>
-        <div className="col shrink text-right margin-left-lg">
-          <div id="google_translate_element"></div>
         </div>
       </div>
     </header>
@@ -61,12 +56,11 @@ const routing = (
         <div className="row">
           {/* ----------- Updates ---------------- */}
           <div className="col shrink padding-xxlg">
-            <h3>Let's Get Social!</h3>
-            <a href="https://facebook.com/letsplaybingo.io" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" className="social-icon" /></a>
-            <a href="https://twitter.com/Lets_Play_Bingo" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="Twitter" className="social-icon" /></a>
-            <a href="https://www.instagram.com/letsplaybingo.io/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" className="social-icon" /></a>
+            <h3>Follow the L4L Socials!</h3>
+            <a href="https://www.facebook.com/leaders4lifehawaii/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" className="social-icon" /></a>
+            <a href="https://www.instagram.com/leaders4lifehawaii/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" className="social-icon" /></a>
           </div>
-        
+
           <div className="col grow padding-xxlg wrap-text">
             <h3 className="margin-bottom-lg"><span className="date">5/17/2020</span> | Quick updates!</h3>
             <ul>
@@ -76,7 +70,7 @@ const routing = (
               <li>Fixed an issue where the bingo board was writing out the numbers with letters for certain languages.</li>
             </ul>
             <p className="medium-text"><strong>Reminder:</strong> if you run into bugs that break gameplay or you prefer the original version you can always play the stable <a href="https://classic.letsplaybingo.io">Let's Play Bingo Classic</a>!</p>
-            
+
             <h5 className="margin-bottom-lg">Questions, Suggestions, Comments, Reporting Issues</h5>
             <p>Please feel free to reach out via email, on Facebook, Instagram, Twitter, etc with any questions, comments, concerns, etc! I love hearing from players!
             I'm just one developer, but I do my best to respond to everyone who emails me and help them however I can!</p>
@@ -88,18 +82,6 @@ const routing = (
         </div>
       </section>
     </Route>
-    
-    <footer>
-      <div className="row three-cols">
-        <div className="col">
-          For entertainment purposes only.
-        </div>
-        <div className="col text-center">&copy; 2017 - {new Date().getFullYear()} <a href="mailto:hello@letsplaybingo.io">Let's Play Bingo</a></div>
-        <div className="col text-right">
-          <Link to="/terms">Terms of Use</Link> | <Link to="/privacy">Cookies &amp; Privacy Policy</Link>
-        </div>
-      </div>
-    </footer>
   </Router>
 )
 ReactDOM.render(routing, document.getElementById('root'));
