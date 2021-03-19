@@ -9,7 +9,7 @@ class TellYourFriends extends React.Component {
   render(){
     return(
       <div className="tell-your-friends padding-lg">
-        <h3 className="margin-top-none margin-bottom-md">Love Let's Play Bingo? Tell your friends!</h3>
+        <h3 className="margin-top-none margin-bottom-md">Share this on Social Media!</h3>
         <div className="addthis_inline_share_toolbox"></div>
       </div>
     )

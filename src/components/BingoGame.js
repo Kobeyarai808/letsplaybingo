@@ -788,16 +788,13 @@ class BingoGame extends Component {
               </section>
             </div>
 
-            {/* ----------- Donation ------------- */}
+            {/* Promotion Section*/}
             <div className="col min-size-300 grow padding-vertical-xxlg padding-horizontal-lg white-text">
-              <h4 className="no-margin">Donate to Let's Play Bingo!</h4>
+              <h4 className="no-margin">Mililani Lions Club - L4L Hawaii</h4>
               <p className="wrap-text small-text">
-                <strong>Let's Play Bingo is the #1 Bingo Caller on Google!</strong><br/>
-                Requiring no downloads, and with no ads, it is completely <strong>free</strong> and always will be.
-                If you'd like to contribute toward operating costs we are accepting <a href="/donate">donations</a> of any amount 
-                via <a href="https://venmo.com/karolbrennan" target="_blank" rel="noopener noreferrer">Venmo</a> or <a href="https://paypal.me/karolbrennan" target="_blank" rel="noopener noreferrer">Paypal</a>!
+                <strong>Thank you very much for attending the MLC L4L Bingo Night</strong><br/>
+                It would not have been possible without you! If you had a good time and would like another bingo night, please let us know!
               </p>
-              <p><a href="/donate" className="button">Donate Now</a></p>
             </div>
 
           </div>
